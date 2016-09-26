@@ -1,14 +1,52 @@
 
 body {
-	background: white;
+	background-color: white;
+	background-image: url("../images/morse-code-1.jpg");
+	background-repeat: 
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
-	background: grey;
+	background-color: grey;
 }
 
-header > h1 {
+.quizName h1 {
 	color : white;
 	text-align: center;
 }
+
+.questions {
+	background-color: black;
+	height: 6em;
+	width: 40em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	box-sizing: border-box;
+	border: 0.1px solid black;
+	border-radius: 1em;
+}
+
+.questions > h2 {
+	display: none;
+}
+
+.options {
+	background-color: white;
+	display: block;
+	height: 20em;
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	box-sizing: border-box;
+	border: 0.1px solid white;
+	border-radius: 1em;
+}
+
+.option1-2 > h3, .option3-4 > h3 {
+	display: inline-block;
+	
+}
+
