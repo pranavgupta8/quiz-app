@@ -15,6 +15,23 @@ header {
 	text-align: center;
 }
 
+.newGame, .nextQuestion {
+	background-color: grey;
+	height: 3em;
+	width: 10em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	border: 0.1px solid grey;
+	border-radius: 1em;
+	cursor: pointer;
+}
+
+.newGame > h4{
+	margin-left: 1em;
+}
+
 .questions {
 	background-color: black;
 	height: 6em;
@@ -22,13 +39,16 @@ header {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 6em;
+	margin-top: 2em;
 	box-sizing: border-box;
 	border: 0.1px solid black;
 	border-radius: 1em;
 }
 
 .questions > h2 {
+	position: relative;
+	left: 0.4em;
+	color: white;
 	display: none;
 }
 
@@ -45,8 +65,28 @@ header {
 	border-radius: 1em;
 }
 
+.options > div {
+	position: absolute;
+	display: none;
+}
+
+#welcomeMsg {
+	display: inline;
+}
+
 .option1-2 > h3, .option3-4 > h3 {
 	display: inline-block;
 	
 }
 
+.infos {
+	position: absolute;
+}
+
+#progress {
+	float: left;
+}
+
+#answer {
+	float: right;
+}
