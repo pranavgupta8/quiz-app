@@ -49,12 +49,22 @@ header {
 	position: relative;
 	left: 0.4em;
 	color: white;
-	display: none;
 }
 
-.options {
+#progress, #answer {
+	background-color: gold;
+	width: 7em;
+	height: 20em;
+	text-align: center;
+}
+
+h6 {
+	color: white;
+}
+
+.optionsBox {
 	background-color: white;
-	display: block;
+	display: table;
 	height: 20em;
 	width: 40em;
 	margin-left: auto;
@@ -65,18 +75,18 @@ header {
 	border-radius: 1em;
 }
 
-.options > div {
-	position: absolute;
-	display: none;
-}
-
-#welcomeMsg {
-	display: inline;
-}
-
-.option1-2 > h3, .option3-4 > h3 {
-	display: inline-block;
+#welcomeMsg, #endMsg {
+	text-align: center;
 	
+}
+
+.options , .options2 {
+	display: table-row;
+}
+
+._1, ._2, ._3, ._4 {
+	display: inline-block;
+	cursor: pointer;
 }
 
 .infos {
@@ -85,6 +95,7 @@ header {
 
 #progress {
 	float: left;
+	 
 }
 
 #answer {
