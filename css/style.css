@@ -51,14 +51,14 @@ header {
 	color: white;
 }
 
-#progress, #answer {
+#progress, #answerBox {
 	background-color: gold;
 	width: 7em;
 	height: 20em;
 	text-align: center;
 }
 
-h6 {
+h5 {
 	color: white;
 }
 
@@ -89,6 +89,11 @@ h6 {
 	cursor: pointer;
 }
 
+._2, ._4 {
+	float: right;
+	padding-right: 3em;
+}
+
 .infos {
 	position: absolute;
 }
@@ -98,6 +103,6 @@ h6 {
 	 
 }
 
-#answer {
+#answerBox {
 	float: right;
 }
